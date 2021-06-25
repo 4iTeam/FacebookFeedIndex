@@ -1,0 +1,573 @@
+// Brand Colors
+@fa-500px: #0099e5;
+@fa-adn: #4A484C;
+@fa-amazon: #ff9900;
+@fa-android: #a4c639;
+@fa-angellist: #000;
+@fa-apple: #979797;
+@fa-behance-square: @fa-behance;
+@fa-behance: #1769ff;
+@fa-bitbucket-square: @fa-bitbucket;
+@fa-bitbucket: #205081;
+@fa-bitcoin: #ee9209;
+@fa-black-tie: #222;
+@fa-btc: @fa-bitcoin;
+@fa-buysellads: #c90100;
+@fa-cc-amex: #007bc1;
+@fa-cc-diners-club: #004A97;
+@fa-cc-discover: #f68121;
+@fa-cc-jcb: #003A8F;
+@fa-cc-mastercard: #0a3a82;
+@fa-cc-paypal: #253b80;
+@fa-cc-stripe: #00afe1;
+@fa-cc-visa: #0157a2;
+@fa-chrome: #4587F3;
+@fa-codepen: #000;
+@fa-connectdevelop: #391448;
+@fa-contao: #eb8623;
+@fa-creative-commons: #231f20;
+@fa-css3: #1680C0;
+@fa-dashcube: #7f7f7f;
+@fa-delicious: #3399ff;
+@fa-deviantart: #4e6252;
+@fa-digg: #000;
+@fa-dribbble: #444444;
+@fa-dropbox: #007ee5;
+@fa-drupal: #0077c0;
+@fa-empire: #000;
+@fa-expeditedssl: #343433;
+@fa-facebook-official: @fa-facebook;
+@fa-facebook-square: @fa-facebook;
+@fa-facebook: #3b5998;
+@fa-firefox: #e66000;
+@fa-flickr: #ff0084;
+@fa-fonticons: #1C1E29;
+@fa-forumbee: #83ad13;
+@fa-foursquare: #0072b1;
+@fa-ge: #000;
+@fa-get-pocket: #d3505a;
+@fa-gg-circle: #000;
+@fa-gg: #000;
+@fa-git-square: @fa-git;
+@fa-git: #333;
+@fa-github-alt: @fa-github;
+@fa-github-square: @fa-github;
+@fa-github: @fa-git;
+@fa-gittip: #663300;
+@fa-google-plus-square: @fa-google-plus;
+@fa-google-plus: #dd4b39;
+@fa-google-wallet: @fa-google;
+@fa-google: #4285f4;
+@fa-hacker-news: #ff6600;
+@fa-houzz: #7ac142;
+@fa-html5: #e34f26;
+@fa-instagram: #3f729b;
+@fa-internet-explorer: #1EBBEE;
+@fa-ioxhost: #faa729;
+@fa-joomla: #142849;
+@fa-jsfiddle: #4679BD;
+@fa-lastfm-square: @fa-lastfm;
+@fa-lastfm: #c3000d;
+@fa-leanpub: #0c0c0c;
+@fa-linkedin-square: @fa-linkedin;
+@fa-linkedin: #0976b4;
+@fa-linux: #333333;
+@fa-maxcdn: #FF6600;
+@fa-meanpath: #538ed7;
+@fa-medium: #000;
+@fa-odnoklassniki-square: @fa-odnoklassniki;
+@fa-odnoklassniki: #ed812b;
+@fa-opencart: #2AC2EF;
+@fa-openid: #F78C40;
+@fa-opera: #cc0f16;
+@fa-optin-monster: #83c11f;
+@fa-pagelines: #000;
+@fa-paypal: #253b80;
+@fa-pied-piper-alt: @fa-pied-piper;
+@fa-pied-piper-square: @fa-pied-piper;
+@fa-pied-piper: #2f9f46;
+@fa-pinterest-p: @fa-pinterest;
+@fa-pinterest-square: @fa-pinterest;
+@fa-pinterest: #cc2127;
+@fa-qq: #000;
+@fa-ra: #000;
+@fa-rebel: @fa-ra;
+@fa-reddit-square: @fa-reddit;
+@fa-reddit: #ff4500;
+@fa-renren: #005EAC;
+@fa-safari: #1B88CA;
+@fa-sellsy: #1f78b9;
+@fa-share-alt-square: @fa-share-alt;
+@fa-share-alt: #01bf01;
+@fa-shirtsinbulk: #dd3a26;
+@fa-simplybuilt: #000;
+@fa-skyatlas: #00adbb;
+@fa-skype: #00aff0;
+@fa-slack: #0f7965;
+@fa-slideshare: #e98325;
+@fa-soundcloud: #f80;
+@fa-spotify: #7ab800;
+@fa-stack-exchange: #000;
+@fa-stack-overflow: #fe7a15;
+@fa-steam-square: @fa-steam;
+@fa-steam: #0B0B0B;
+@fa-stumbleupon-circle: @fa-stumbleupon;
+@fa-stumbleupon: #eb4924;
+@fa-tencent-weibo: #74AF2C;
+@fa-trello: #256a92;
+@fa-tripadvisor: #589442;
+@fa-tumblr-square: @fa-tumblr;
+@fa-tumblr: #35465c;
+@fa-twitch: #6441a5;
+@fa-twitter-square: @fa-twitter;
+@fa-twitter: #55acee;
+@fa-viacoin: #333;
+@fa-vimeo-square: @fa-vimeo;
+@fa-vimeo: #1ab7ea;
+@fa-vine: #00b488;
+@fa-vk: #45668e;
+@fa-wechat: #93d034;
+@fa-weibo: #E71D34;
+@fa-weixin: @fa-wechat;
+@fa-wikipedia-w: #000;
+@fa-windows: #00bcf2;
+@fa-wordpress: #21759b;
+@fa-xing-square: @fa-xing;
+@fa-xing: #026466;
+@fa-y-combinator: #F0652F;
+@fa-yahoo: #400191;
+@fa-yc: @fa-y-combinator;
+@fa-yelp: #af0606;
+@fa-youtube-play: @fa-youtube;
+@fa-youtube-square: @fa-youtube;
+@fa-youtube: #e52d27;
+
+.fc {
+    // Default color for undefined
+    &.fa-500px {
+        color: @fa-500px;
+    }
+    &.fa-adn {
+        color: @fa-adn;
+    }
+    &.fa-amazon {
+        color: @fa-amazon;
+    }
+    &.fa-android {
+        color: @fa-android;
+    }
+    &.fa-angellist {
+        color: @fa-angellist;
+    }
+    &.fa-apple {
+        color: @fa-apple;
+    }
+    &.fa-behance {
+        color: @fa-behance;
+    }
+    &.fa-behance-square {
+        color: @fa-behance-square;
+    }
+    &.fa-bitbucket {
+        color: @fa-bitbucket;
+    }
+    &.fa-bitbucket-square {
+        color: @fa-bitbucket-square;
+    }
+    &.fa-bitcoin {
+        color: @fa-bitcoin;
+    }
+    &.fa-black-tie {
+        color: @fa-black-tie;
+    }
+    &.fa-btc {
+        color: @fa-btc;
+    }
+    &.fa-buysellads {
+        color: @fa-buysellads;
+    }
+    &.fa-cc-amex {
+        color: @fa-cc-amex;
+    }
+    &.fa-cc-diners-club {
+        color: @fa-cc-diners-club;
+    }
+    &.fa-cc-discover {
+        color: @fa-cc-discover;
+    }
+    &.fa-cc-jcb {
+        color: @fa-cc-jcb;
+    }
+    &.fa-cc-mastercard {
+        color: @fa-cc-mastercard;
+    }
+    &.fa-cc-paypal {
+        color: @fa-cc-paypal;
+    }
+    &.fa-cc-stripe {
+        color: @fa-cc-stripe;
+    }
+    &.fa-cc-visa {
+        color: @fa-cc-visa;
+    }
+    &.fa-chrome {
+        color: @fa-chrome;
+    }
+    &.fa-codepen {
+        color: @fa-codepen;
+    }
+    &.fa-connectdevelop {
+        color: @fa-connectdevelop;
+    }
+    &.fa-contao {
+        color: @fa-contao;
+    }
+    &.fa-creative-commons  {
+        color: @fa-creative-commons;
+    }
+    &.fa-css3 {
+        color: @fa-css3;
+    }
+    &.fa-dashcube {
+        color: @fa-dashcube;
+    }
+    &.fa-delicious {
+        color: @fa-delicious;
+    }
+    &.fa-deviantart {
+        color: @fa-deviantart;
+    }
+    &.fa-digg {
+        color: @fa-digg;
+    }
+    &.fa-dribbble {
+        color: @fa-dribbble;
+    }
+    &.fa-dropbox {
+        color: @fa-dropbox;
+    }
+    &.fa-drupal {
+        color: @fa-drupal;
+    }
+    &.fa-empire {
+        color: @fa-empire;
+    }
+    &.fa-expeditedssl {
+        color: @fa-expeditedssl;
+    }
+    &.fa-facebook {
+        color: @fa-facebook;
+    }
+    &.fa-facebook-official {
+        color: @fa-facebook-official;
+    }
+    &.fa-facebook-square {
+        color: @fa-facebook-square;
+    }
+    &.fa-firefox {
+        color: @fa-firefox;
+    }
+    &.fa-flickr {
+        color: @fa-flickr;
+    }
+    &.fa-fonticons {
+        color: @fa-fonticons;
+    }
+    &.fa-forumbee {
+        color: @fa-forumbee;
+    }
+    &.fa-foursquare {
+        color: @fa-foursquare;
+    }
+    &.fa-ge {
+        color: @fa-ge;
+    }
+    &.fa-get-pocket {
+        color: @fa-get-pocket;
+    }
+    &.fa-gg {
+        color: @fa-gg;
+    }
+    &.fa-gg-circle {
+        color: @fa-gg-circle;
+    }
+    &.fa-git {
+        color: @fa-git;
+    }
+    &.fa-git-square {
+        color: @fa-git-square;
+    }
+    &.fa-github {
+        color: @fa-github;
+    }
+    &.fa-github-alt {
+        color: @fa-github-alt;
+    }
+    &.fa-github-square {
+        color: @fa-github-square;
+    }
+    &.fa-gittip {
+        color: @fa-gittip;
+    }
+    &.fa-google {
+        color: @fa-google;
+    }
+    &.fa-google-plus {
+        color: @fa-google-plus;
+    }
+    &.fa-google-plus-square {
+        color: @fa-google-plus-square;
+    }
+    &.fa-google-wallet {
+        color: @fa-google-wallet;
+    }
+    &.fa-hacker-news {
+        color: @fa-hacker-news;
+    }
+    &.fa-houzz  {
+        color: @fa-houzz;
+    }
+    &.fa-html5 {
+        color: @fa-html5;
+    }
+    &.fa-instagram {
+        color: @fa-instagram;
+    }
+    &.fa-internet-explorer {
+        color: @fa-internet-explorer;
+    }
+    &.fa-ioxhost {
+        color: @fa-ioxhost;
+    }
+    &.fa-joomla {
+        color: @fa-joomla;
+    }
+    &.fa-jsfiddle {
+        color: @fa-jsfiddle;
+    }
+    &.fa-lastfm {
+        color: @fa-lastfm;
+    }
+    &.fa-lastfm-square {
+        color: @fa-lastfm-square;
+    }
+    &.fa-leanpub {
+        color: @fa-leanpub;
+    }
+    &.fa-linkedin {
+        color: @fa-linkedin;
+    }
+    &.fa-linkedin-square {
+        color: @fa-linkedin-square;
+    }
+    &.fa-linux {
+        color: @fa-linux;
+    }
+    &.fa-maxcdn {
+        color: @fa-maxcdn;
+    }
+    &.fa-meanpath {
+        color: @fa-meanpath;
+    }
+    &.fa-medium {
+        color: @fa-medium;
+    }
+    &.fa-odnoklassniki  {
+        color: @fa-odnoklassniki;
+    }
+    &.fa-odnoklassniki-square  {
+        color: @fa-odnoklassniki-square;
+    }
+    &.fa-opencart {
+        color: @fa-opencart;
+    }
+    &.fa-openid {
+        color: @fa-openid;
+    }
+    &.fa-opera  {
+        color: @fa-opera;
+    }
+    &.fa-optin-monster {
+        color: @fa-optin-monster;
+    }
+    &.fa-pagelines {
+        color: @fa-pagelines;
+    }
+    &.fa-paypal {
+        color: @fa-paypal;
+    }
+    &.fa-pied-piper {
+        color: @fa-pied-piper;
+    }
+    &.fa-pied-piper-alt {
+        color: @fa-pied-piper-alt;
+    }
+    &.fa-pied-piper-square {
+        color: @fa-pied-piper-square;
+    }
+    &.fa-pinterest {
+        color: @fa-pinterest;
+    }
+    &.fa-pinterest-p {
+        color: @fa-pinterest-p;
+    }
+    &.fa-pinterest-square {
+        color: @fa-pinterest-square;
+    }
+    &.fa-qq {
+        color: @fa-qq;
+    }
+    &.fa-ra {
+        color: @fa-ra;
+    }
+    &.fa-rebel {
+        color: @fa-rebel;
+    }
+    &.fa-reddit {
+        color: @fa-reddit;
+    }
+    &.fa-reddit-square {
+        color: @fa-reddit-square;
+    }
+    &.fa-renren {
+        color: @fa-renren;
+    }
+    &.fa-safari  {
+        color: @fa-safari;
+    }
+    &.fa-sellsy {
+        color: @fa-sellsy;
+    }
+    &.fa-share-alt {
+        color: @fa-share-alt;
+    }
+    &.fa-share-alt-square {
+        color: @fa-share-alt-square;
+    }
+    &.fa-shirtsinbulk {
+        color: @fa-shirtsinbulk;
+    }
+    &.fa-simplybuilt {
+        color: @fa-simplybuilt;
+    }
+    &.fa-skyatlas {
+        color: @fa-skyatlas;
+    }
+    &.fa-skype {
+        color: @fa-skype;
+    }
+    &.fa-slack {
+        color: @fa-slack;
+    }
+    &.fa-slideshare {
+        color: @fa-slideshare;
+    }
+    &.fa-soundcloud {
+        color: @fa-soundcloud;
+    }
+    &.fa-spotify {
+        color: @fa-spotify;
+    }
+    &.fa-stack-exchange {
+        color: @fa-stack-exchange;
+    }
+    &.fa-stack-overflow {
+        color: @fa-stack-overflow;
+    }
+    &.fa-steam {
+        color: @fa-steam;
+    }
+    &.fa-steam-square {
+        color: @fa-steam-square;
+    }
+    &.fa-stumbleupon {
+        color: @fa-stumbleupon;
+    }
+    &.fa-stumbleupon-circle {
+        color: @fa-stumbleupon-circle;
+    }
+    &.fa-tencent-weibo {
+        color: @fa-tencent-weibo;
+    }
+    &.fa-trello {
+        color: @fa-trello;
+    }
+    &.fa-tripadvisor  {
+        color: @fa-tripadvisor;
+    }
+    &.fa-tumblr {
+        color: @fa-tumblr;
+    }
+    &.fa-tumblr-square {
+        color: @fa-tumblr-square;
+    }
+    &.fa-twitch {
+        color: @fa-twitch;
+    }
+    &.fa-twitter {
+        color: @fa-twitter;
+    }
+    &.fa-twitter-square {
+        color: @fa-twitter-square;
+    }
+    &.fa-viacoin {
+        color: @fa-viacoin;
+    }
+    &.fa-vimeo  {
+        color: @fa-vimeo;
+    }
+    &.fa-vimeo-square {
+        color: @fa-vimeo-square;
+    }
+    &.fa-vine {
+        color: @fa-vine;
+    }
+    &.fa-vk {
+        color: @fa-vk;
+    }
+    &.fa-wechat {
+        color: @fa-wechat;
+    }
+    &.fa-weibo {
+        color: @fa-weibo;
+    }
+    &.fa-weixin {
+        color: @fa-weixin;
+    }
+    &.fa-wikipedia-w {
+        color: @fa-wikipedia-w;
+    }
+    &.fa-windows {
+        color: @fa-windows;
+    }
+    &.fa-wordpress {
+        color: @fa-wordpress;
+    }
+    &.fa-xing {
+        color: @fa-xing;
+    }
+    &.fa-xing-square {
+        color: @fa-xing-square;
+    }
+    &.fa-y-combinator {
+        color: @fa-y-combinator;
+    }
+    &.fa-yc {
+        color: @fa-yc;
+    }
+    &.fa-yahoo {
+        color: @fa-yahoo;
+    }
+    &.fa-yelp {
+        color: @fa-yelp;
+    }
+    &.fa-youtube {
+        color: @fa-youtube;
+    }
+    &.fa-youtube-play {
+        color: @fa-youtube-play;
+    }
+    &.fa-youtube-square {
+        color: @fa-youtube-square;
+    }
+}

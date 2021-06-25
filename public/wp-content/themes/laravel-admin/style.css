@@ -1,0 +1,15 @@
+/*
+Theme Name: Laravel Admin
+Theme URI:
+Description: Laravel admin theme
+Version: 1.0.0
+Author: Multi Contributors
+Author URI: http://corecss.io/
+Tags: responsive, two columns, one colums, css3, html5
+*/
+/**
+Your custom css here
+ */
+.text-black{
+    color: #151b1e;
+}

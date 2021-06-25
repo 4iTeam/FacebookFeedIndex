@@ -1,0 +1,19 @@
+# Laravel queue worker using systemd
+# ----------------------------------
+#
+# /lib/systemd/system/4it.service
+#
+# run this command to enable service:
+# systemctl enable queue.service
+
+[Unit]
+Description=4IT service
+
+[Service]
+User=forit
+Group=forit
+Restart=on-failure
+ExecStart=/usr/bin/php ~/4it.top/artisan facebook:index service
+
+[Install]
+WantedBy=multi-user.target

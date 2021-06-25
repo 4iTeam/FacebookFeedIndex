@@ -1,0 +1,1 @@
+<script src="{!! asset('js/support/page-loader.js') !!}"></script>
